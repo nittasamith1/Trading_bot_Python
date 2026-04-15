@@ -1,0 +1,8 @@
+2025-04-14T11:26:45 | INFO     | trading_bot | === Trading Bot Session Start ===
+2025-04-14T11:26:45 | DEBUG    | trading_bot.client | BinanceClient initialised (base_url=https://testnet.binancefuture.com)
+2025-04-14T11:26:45 | INFO     | trading_bot.orders | Building LIMIT order | SELL ETHUSDT qty=0.05 price=3200 tif=GTC
+2025-04-14T11:26:45 | INFO     | trading_bot.client | Placing order | symbol=ETHUSDT side=SELL type=LIMIT qty=0.05 price=3200
+2025-04-14T11:26:45 | DEBUG    | trading_bot.client | POST https://testnet.binancefuture.com/fapi/v1/order | body={'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.05', 'price': '3200', 'timeInForce': 'GTC', 'timestamp': 1744630005112, 'recvWindow': 5000, 'signature': '***'}
+2025-04-14T11:26:46 | DEBUG    | trading_bot.client | Response | status=200 body={"orderId":8821047765,"symbol":"ETHUSDT","status":"NEW","clientOrderId":"x-HNablFkQvT9AFHU2BgpZ","price":"3200","avgPrice":"0.00000","origQty":"0.05","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.000","timeInForce":"GTC","type":"LIMIT","side":"SELL","updateTime":1744630005298}
+2025-04-14T11:26:46 | INFO     | trading_bot.client | Order placed   | orderId=8821047765 status=NEW executedQty=0.000 avgPrice=0.00000
+2025-04-14T11:26:46 | INFO     | trading_bot | === Trading Bot Session End (success) ===

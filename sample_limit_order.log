@@ -1,0 +1,8 @@
+2025-04-14T11:22:03 | INFO     | trading_bot | === Trading Bot Session Start ===
+2025-04-14T11:22:03 | DEBUG    | trading_bot.client | BinanceClient initialised (base_url=https://testnet.binancefuture.com)
+2025-04-14T11:22:03 | INFO     | trading_bot.orders | Building MARKET order | BUY BTCUSDT qty=0.001
+2025-04-14T11:22:03 | INFO     | trading_bot.client | Placing order | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=N/A
+2025-04-14T11:22:03 | DEBUG    | trading_bot.client | POST https://testnet.binancefuture.com/fapi/v1/order | body={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1744629723441, 'recvWindow': 5000, 'signature': '***'}
+2025-04-14T11:22:03 | DEBUG    | trading_bot.client | Response | status=200 body={"orderId":3428791234,"symbol":"BTCUSDT","status":"FILLED","clientOrderId":"x-HNablFTSvTYhFJUwBgmX","price":"0","avgPrice":"94312.50000","origQty":"0.001","executedQty":"0.001","cumQty":"0.001","cumQuote":"94.31250","timeInForce":"GTC","type":"MARKET","side":"BUY","updateTime":1744629723594}
+2025-04-14T11:22:03 | INFO     | trading_bot.client | Order placed   | orderId=3428791234 status=FILLED executedQty=0.001 avgPrice=94312.50000
+2025-04-14T11:22:03 | INFO     | trading_bot | === Trading Bot Session End (success) ===
